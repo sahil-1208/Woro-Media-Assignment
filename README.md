@@ -34,14 +34,10 @@ This is a Task Management Application designed to manage tasks and users. It pro
     ```
 
 2. **Configure the application:**
-   - Update the `application.properties` file with your database configuration and JWT secret key.
+   - Update the `application.yml` file with your database configuration and JWT secret key.
 
 3. **Build and run the application:**
-    ```bash
-    ./mvnw clean install
-    ./mvnw spring-boot:run
-    ```
-
+    
 ## API Documentation
 API documentation is available via Swagger UI. Once the application is running, you can access it at:
 ```
